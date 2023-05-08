@@ -1,0 +1,16 @@
+<apex:page standardController="Account">
+    <apex:includeLightning />
+
+    <div id="lightning" />
+
+    <script>
+        $Lightning.use("c:LOCSRFCookieApp", function() {
+          $Lightning.createComponent("c:LOCSRFCookieCmp",
+          {},
+          "lightning",
+          function(cmp) {
+            // do some stuff
+          });
+        });
+    </script>
+</apex:page>
