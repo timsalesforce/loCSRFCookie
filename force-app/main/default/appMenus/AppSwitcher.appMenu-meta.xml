@@ -64,4 +64,8 @@
         <name>lo</name>
         <type>Network</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Lightning_Console</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>
